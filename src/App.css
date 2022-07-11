@@ -1,0 +1,121 @@
+/* Color Theme Swatches in Hex
+.Treasurana1 { color: #267365; }
+.Treasurana2 { color: #F2CB05; }
+.Treasurana3 { color: #F29F05; }
+.Treasurana4 { color: #F28705; }
+.Treasurana5 { color: #F23030; }
+ */
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+
+  margin: 3rem auto;
+  max-width: 600px;
+  padding: 2rem;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center;
+  margin: 1rem;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+  font-weight: 600;
+}
+
+.form-control input {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background-color: #FFC54D !important;
+  margin: 2rem 0;
+  font-weight: bolder;
+}
+.showContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0.5rem;
+  background-color: #F94C66;
+}
+/* .showContainer:hover {
+  cursor: pointer;
+  transform: scale(0.99);
+} */
+.taskP {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.dayP {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.through {
+  border-left: 10px solid #F94C66;
+  text-decoration: line-through;
+  background-color: darkgrey;
+}
+.complatedContainer {
+  display: flex;
+  justify-content: center;
+  
+}
+.childContainer {
+  width: 50%;
+  background-color: #53BF9D;
+  margin-top: 2rem;
+  border-radius: 20px;
+  height: 80vh;
+  box-shadow: 0  -5px  15px  rgba(0, 0, 0, 0.2);
+  overflow: auto;
+
+}
+.edTras{
+  display: flex;
+  width: 5rem;
+  justify-content:space-between;
+}
