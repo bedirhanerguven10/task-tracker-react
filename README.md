@@ -1,2 +1,2 @@
 ### - [Task Tracker React](https://task-tracker-react-ashy.vercel.app/)
-![](./image/Task-tracker-react.gif)
+![](https://github.com/bedirhanerguven10/task-tracker-react/blob/master/image/tasktracker.gif)
